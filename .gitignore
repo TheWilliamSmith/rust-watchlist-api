@@ -1,1 +1,15 @@
-/target
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Migration build artifacts
+migration/target/
+
+# Env
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
